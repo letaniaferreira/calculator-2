@@ -12,17 +12,21 @@ from arithmetic import *
 while True:
     ops_and_nums = raw_input("> ")
     ops_and_nums = ops_and_nums.split(" ")
+    operator = ops_and_nums[0]
     first_num = int(ops_and_nums[1])
-    second_num = int(ops_and_nums[2])
-    if ops_and_nums[0] == "q":
+    if len(ops_and_nums) == 3:
+        second_num = int(ops_and_nums[2])
+    if operator == "q":
         break
-    elif ops_and_nums[0] == "+":
+    elif operator == "+":
         # first_num = int(ops_and_nums[1])
         # second_num = int(ops_and_nums[2])
         print add(first_num, second_num)
-    elif ops_and_nums[0] == "-":
+    elif operator == "-":
         print subtract(first_num, second_num)
-    elif ops_and_nums[0] == "*":
+    elif operator == "*":
         print multiply(first_num, second_num)
-    elif ops_and_nums[0] == "/":
+    elif operator == "/":
         print divide(first_num, second_num)
+    elif operator == "square":
+        print square(first_num)
