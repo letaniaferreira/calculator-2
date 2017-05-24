@@ -23,4 +23,6 @@ while True:
     elif ops_and_nums[0] == "-":
         print subtract(first_num, second_num)
     elif ops_and_nums[0] == "*":
-       print multiply(first_num, second_num)
+        print multiply(first_num, second_num)
+    elif ops_and_nums[0] == "/":
+        print divide(first_num, second_num)
