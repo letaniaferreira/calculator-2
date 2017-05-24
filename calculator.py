@@ -22,3 +22,5 @@ while True:
         print add(first_num, second_num)
     elif ops_and_nums[0] == "-":
         print subtract(first_num, second_num)
+    elif ops_and_nums[0] == "*":
+       print multiply(first_num, second_num)
