@@ -19,8 +19,6 @@ while True:
     if operator == "q":
         break
     elif operator == "+":
-        # first_num = int(ops_and_nums[1])
-        # second_num = int(ops_and_nums[2])
         print add(first_num, second_num)
     elif operator == "-":
         print subtract(first_num, second_num)
@@ -30,3 +28,5 @@ while True:
         print divide(first_num, second_num)
     elif operator == "square":
         print square(first_num)
+    elif operator == "cube":
+        print cube(first_num)
