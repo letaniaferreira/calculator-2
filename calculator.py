@@ -30,3 +30,5 @@ while True:
         print square(first_num)
     elif operator == "cube":
         print cube(first_num)
+    elif operator == "pow":
+        print power(first_num, second_num)
