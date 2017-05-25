@@ -46,6 +46,6 @@ while True:
 
     elif operator == "mod":
         print mod(first_num, second_num)
-        
+
     else:
         print "That input is invalid, please use a valid operator and integers"
